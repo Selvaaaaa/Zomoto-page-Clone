@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Pricing Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f1c40f, #e67e22);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .pricing-table {
+            display: flex;
+            gap: 20px;
+        }
+        .pricing-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            width: 200px;
+        }
+        .pricing-card h2 {
+            margin: 0;
+            padding: 20px 0;
+            color: #fff;
+            font-size: 24px;
+        }
+        .pricing-card h3 {
+            margin: 0;
+            padding: 20px 0;
+            color: #333;
+            font-size: 18px;
+            background: #f9f9f9;
+        }
+        .pricing-card ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            padding: 20px 0;
+            background: #f9f9f9;
+            color: #333;
+        }
+        .pricing-card ul li {
+            margin: 10px 0;
+        }
+        .pricing-card button {
+            background: #333;
+            color: #fff;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .pricing-card button:hover {
+            background: #555;
+        }
+        .basic {
+            background: linear-gradient(135deg, #26d0ce, #1a2980);
+        }
+        .premium {
+            background: linear-gradient(135deg, #fc4a1a, #f7b733);
+        }
+        .ultimate {
+            background: linear-gradient(135deg, #ff5f6d, #ffc371);
+            background: linear-gradient(145deg,red,blue,green);
+        }
+    </style>
+</head>
+<body>
+    <div class="pricing-table">
+        <div class="pricing-card basic">
+            <h2>$26</h2>
+            <h3>Basic</h3>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+                <li>Feature 4</li>
+            </ul>
+            <button>Choose</button>
+        </div>
+        <div class="pricing-card premium">
+            <h2>$30</h2>
+            <h3>Premium</h3>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+                <li>Feature 4</li>
+            </ul>
+            <button>Choose</button>
+        </div>
+        <div class="pricing-card ultimate">
+            <h2>$35</h2>
+            <h3>Ultimate</h3>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+                <li>Feature 4</li>
+            </ul>
+            <button>Choose</button>
+        </div>
+    </div>
+</body>
+</html>

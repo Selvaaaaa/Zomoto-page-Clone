@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        #main{
+            background-color: blueviolet;
+            color: brown;
+            text-align: center;
+            margin: 2px;
+            padding: 2px;
+            display: grid;
+            grid-template-areas:'TF TF TF TF' 'CLR CLR MI PLUS' 'SV E N DIV' 'FO F S X' 'I T TH EQUAL' 'O O dot EQUAL';
+        }
+        #main >div{
+            font-size:xx-large;
+            font-weight: bolder;
+            border-radius: 10px;
+            background-color: rgba(216, 112, 147, 0.767);
+            color: rgb(255, 94, 0);
+            margin: 2px;
+            padding: 30px;
+        }
+
+        #clr{
+            font-weight: bolder;
+        }
+        #eq{
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div style="grid-area: TF; background-color:orange; color:white">25</div>
+        <div id="clr" style="grid-area: CLR;  background-color:aqua; color:white">clear</div>
+        <div style="grid-area: MI; background-color:rgb(255, 169, 177)">-</div>
+        <div style="grid-area: PLUS;background-color:rgb(255, 169, 177)">+</div>
+        <div style="grid-area: DIV; background-color:rgb(255, 169, 177)">/</div>
+        <div style="grid-area: SV; background-color:rgb(255, 169, 177)">7</div>
+        <div style="grid-area: E; background-color:rgb(255, 169, 177)">8</div>
+        <div style="grid-area: N; background-color:rgb(255, 169, 177)">9</div>
+        <div style="grid-area: FO;background-color:rgb(255, 169, 177)">4</div>
+        <div style="grid-area: F; background-color:rgb(255, 169, 177)">5</div>
+        <div style="grid-area: S; background-color:rgb(255, 169, 177)">6</div>
+        <div style="grid-area: X;background-color:rgb(255, 169, 177)">x</div>
+        <div style="grid-area: I; background-color:rgb(255, 169, 177)">1</div>
+        <div style="grid-area: T; background-color:rgb(255, 169, 177)" >2</div>
+        <div style="grid-area: TH; background-color:rgb(255, 169, 177)">3</div>
+        <div id="eq" style="grid-area:EQUAL;background-color:rgb(255, 0, 0);color:white">=</div>
+        <div style="grid-area: O; background-color:rgb(255, 169, 177)">0</div>
+        <div style="grid-area: dot; background-color:rgb(255, 169, 177)">.</div>
+    </div>
+</body>
+</html>
